@@ -1,0 +1,12 @@
+{
+    "crons": [
+        {
+            "path": "/api/whoop/sync",
+            "schedule": "0 * * * *"
+        },
+        {
+            "path": "/api/orchestrate",
+            "schedule": "15 * * * *"
+        }
+    ]
+}
